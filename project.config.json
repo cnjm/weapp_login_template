@@ -3,15 +3,6 @@
   "packOptions": {
     "ignore": []
   },
-  "miniprogramRoot": "miniprogram/",
-  "compileType": "miniprogram",
-  "libVersion": "2.15.0",
-  "projectname": "template",
-  "scripts": {
-    "beforeCompile": "npm run tsc",
-    "beforePreview": "npm run tsc",
-    "beforeUpload": "npm run tsc"
-  },
   "setting": {
     "urlCheck": false,
     "es6": true,
@@ -31,8 +22,8 @@
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
     "lazyloadPlaceholderEnable": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
     "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
@@ -47,8 +38,37 @@
     "minifyWXSS": true,
     "showES6CompileOption": false
   },
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
+  "compileType": "miniprogram",
+  "libVersion": "2.18.1",
   "appid": "wxa40e7cb8d87defa1",
-  "condition": {}
+  "projectname": "weapp_template_js",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "staticServerOptions": {
+    "baseURL": "",
+    "servePath": ""
+  },
+  "isGameTourist": false,
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": []
+    }
+  }
 }
