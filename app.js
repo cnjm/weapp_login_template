@@ -3,13 +3,13 @@ import {userLogin } from "./utils/login";
 App({
   onLaunch() {
     // login start
-    userLogin().then((token)=>{
-      console.log('登录流程结束')
-      //如果需要获取用户信息等 可以选择在此处理 或 修改utils/login.js的逻辑
-      // dosometion
-    }).catch((err)=>[
+    // userLogin().then((token)=>{
+    //   console.log('登录流程结束')
+    //   //如果需要获取用户信息等 可以选择在此处理 或 修改utils/login.js的逻辑
+    //   // dosometion
+    // }).catch((err)=>[
 
-    ])
+    // ])
     // login end
 
 
