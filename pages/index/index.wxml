@@ -18,6 +18,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto"  bindtap="bindLink">canvas演示</text>
   </view>
 </view>

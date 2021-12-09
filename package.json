@@ -1,0 +1,18 @@
+{
+  "name": "weapp_login_template",
+  "version": "1.0.0",
+  "description": "基本功能封装",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:c_jiaming/weapp_login_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wechatcanvas": "^1.0.1"
+  }
+}

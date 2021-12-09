@@ -1,7 +1,10 @@
 
  ## 微信小程序js版本
 
-目前封装接口请求以及静默登录功能
+目前封装
+接口请求
+静默登录
+引入wechatcanvas绘制分享海报示例 https://www.npmjs.com/package/wechatcanvas
 
 其中设计目录、文件
 
