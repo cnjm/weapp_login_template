@@ -22,9 +22,4 @@
 
 ### ts版本
 
-[github](https://github.com/cnjm/weapp_login_template/tree/ts_version)
-
-[gitee](https://gitee.com/c_jiaming/weapp_login_template/tree/ts_version)
-
-1. requset请求封装   (未完待续)
-2. 遵循官方的静默登录 (未完待续)
+暂未
