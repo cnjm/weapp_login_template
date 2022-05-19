@@ -9,6 +9,7 @@ const domainOptions = {
 
 export const DOMAIN = domainOptions[envVersion]; //不同环境的域名
 
+// **请根据业务修改**
 // 后端响应字段
 export const resCode = "code"; //对应业务逻辑自定的状态码  如果是request http请求响应的状态码处理逻辑，请修改为 statusCode
 // export const resMes = "message";//对应业务逻辑自定的提示
